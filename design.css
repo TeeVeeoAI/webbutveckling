@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     color: white;
     text-shadow: 3px 3px 3px lightgray;
@@ -22,6 +27,7 @@ p{
     text-align: left;
     border: 2px dotted white;
     border-radius: 10px;
+    margin: 20px;
 }
 
 .text2{
@@ -37,6 +43,36 @@ p{
     background-color: red;
 }
 img{
-    margin-left: 44em;
+    margin-left: 37.5%;
+    margin-top: 20px;
+    
+}
+
+div{
+    color: #fff;
+    text-align: center ; 
+    font-size: 0.5em;
+    position: fixed;
+    bottom: 0;
+    height: 7em;
+}
+
+.text3{
+    border: 2px solid #808080;
+    border-radius: 25%;
+    width: 10em;
+    padding: 5px;
+    background-color: #f00;
+    margin: 20px;
+}
+
+.text4{
+    color: #fff;
+    text-align: center;
+    margin-right: 100%;
+    font-size: 2.5em;
+    top: 0;
+    background-color: #000;
+    margin-left: 20px;
     margin-top: 20px;
 }
